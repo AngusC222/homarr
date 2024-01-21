@@ -35,7 +35,7 @@ export const CategoryEditMenu = ({ category }: CategoryEditMenuProps) => {
         <Menu.Item icon={<IconEdit size={20} />} onClick={edit}>
           {t('common:edit')}
         </Menu.Item>
-        <Menu.Item icon={<IconTrash size={20} />} onClick={remove}>
+        <Menu.Item icon={<IconTrash size={20} color="red"/>} onClick={remove}>
           {t('common:remove')}
         </Menu.Item>
         <Menu.Label>{t('common:changePosition')}</Menu.Label>
